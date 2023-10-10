@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Merriweather:ital,wght@1,900&family=Noto+Serif:ital,wght@1,700&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Inicio de Sesion</title>
+</head>
+<body>
+    
+    <form action="" class="vistaSinEstilos">
+        <h1>Sign In</h1>
+        <input type="text">
+        <input type="password" name="passwor" id="pw">
+        <button >Login</button>
+        <button id="cambiarVista">Cambiar Estilo de Formulario</button>
+    </form>
+
+    <main class="vistaConEstilos">
+        <form action="" class="formularioConEstilos">
+            <section class="contenedor-t">
+                <h1>Sign In</h1>
+            </section>
+    
+            <section class="contenedor-inputs">
+                <div class="user">
+                    <div class="contenedor-imagen">
+                        <img src="assets/img/usuario.png" alt="logo-usuario">
+                    </div>
+                    <input type="text" placeholder="  username">
+                </div>
+                <div class="user">
+                    <div class="contenedor-imagen">
+                        <img src="assets/img/llave.png" alt="logo-contraseña">
+                    </div>
+                    <input type="password" placeholder="  password">
+                </div>
+                <div class="user-check">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Remember Me</label>
+                </div>
+                <div class="boton">
+                    <button id="boton">Login</button>
+                </div>
+            </section>
+    
+            <section class="contenedor-p">
+                <p>Don't have an acount? <a href="#">Sign up Forgot your password?</a></p>
+            </section>  
+        </form>
+    
+        <a class="red-t">
+            <img src="assets/img/twitter.png" alt="logo-twitter">
+        </a>
+        <a class="red-g">
+            <img src="assets/img/google.png" alt="logo-google">
+        </a>
+        <a class="red-f">
+            <img src="assets/img/facebook.png" alt="logo-google">
+        </a>
+    </main>
+   
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.vistaConEstilos{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; 
+    background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.vistaSinEstilos{
+    width: 450px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vistaSinEstilos input{
+    width: 70%;
+    margin-top: 70px;
+}
+
+.vistaSinEstilos button{
+    margin-top: 100px;
+}
+
+.formularioConEstilos{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, .5);
+    border: 2px solid black;
+    margin-left: 540px;
+    margin-top: 150px;
+}
+
+.user{
+    display: flex;
+    width: 80%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-imagen{
+    width: 12%;
+    background-color: #FFC213;
+    height: 40px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.contenedor-imagen img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.4);
+}
+
+.user input{
+    height: 40px;
+    width: 90%;
+    border: none;
+    border-left: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.user-check{
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.user-check input{
+    height: 35px;
+    width: 18px;
+    margin-right: 7px;
+}
+
+.user-check label{
+    color: white;
+}
+
+.boton{
+    width: 80%;
+    height: 35px;
+    display: flex;
+    justify-content: right;
+}
+
+.boton button{
+    width: 30%;
+    height: 100%;
+    font-size: 17px;
+    border-radius: 7px;
+    background-color: #FFC213;
+    border: none;
+    font-weight: 500;
+    text-align: center;
+}
+
+.boton button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.contenedor-inputs{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor-t{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenedor-t h1{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.contenedor-p{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.contenedor-p p{
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.contenedor-p a{
+    text-decoration: none;
+    color: #337CCF;
+}
+
+.red-t{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 915px;
+    bottom: 580px;
+    background-color: #FFC213;
+    border-radius: 7px;
+}
+
+.red-t img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.6);
+}
+
+.red-t:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.red-g{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 840px;
+    bottom: 580px;
+    background-color: #FFC213;
+    border-radius: 7px;
+}
+
+.red-g img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.6);
+}
+
+.red-g:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.red-f{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 765px;
+    bottom: 580px;
+    background-color: #FFC213;
+    border-radius: 7px;
+}
+
+.red-f img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.6);
+}
+
+.red-f:hover{
+    background-color: white;
+    cursor: pointer;
+}
