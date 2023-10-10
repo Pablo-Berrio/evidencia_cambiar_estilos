@@ -1,8 +1,8 @@
 var vistaActual = 1; 
 
 function cambiarVista() {
-    var vista1 = document.getElementsByClassName("vistaSinEstilos")[0];
-    var vista2 = document.getElementsByClassName("vistaConEstilos")[0];
+    var vista1 = document.getElementsByClassName("vistaSinEstilos")[0]
+    var vista2 = document.getElementsByClassName("vistaConEstilos")[0]
 
     if (vistaActual === 1) {
         vista1.style.display = 'none';
